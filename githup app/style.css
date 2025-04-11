@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('./WhatsApp\ Image\ 2025-04-10\ at\ 10.23.10\ PM.jpeg');
+  background-repeat: no-repeat;   
+  background-size: cover;         
+  background-position: center;
+  display: flex;
+  justify-content: flex-start; /* left aligned */
+  align-items: center;         /* vertically center */
+  font-family: Arial, sans-serif;
+}
+
+.github{
+   margin-top: -350px;
+}
+.welcome{
+  font-size: 70px;
+  height: 50px;
+  width: 390px;
+  margin-top: -290px;
+  margin-left: 40px;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  margin-left: 490px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.google-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: blue;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+}
+
+.divider span {
+  position: relative;
+  top: 10px;
+  background: #fff;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+  
+.container1 {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 120px; 
+  width: 700px;
+  height: 480px;
+  margin-left: 120px;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+ background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+   background-color: #353434;
+  }
+  
+  .profile {
+    margin-top: 20px;
+    display: none;
+    text-align: left;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile div {
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+  }  
